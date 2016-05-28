@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sadgirlnyc's BBC</title>
+
+	<meta charset="uft-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=uft-8" />
+	<meta name="viewport" content="width=device-width, intial-scale=1" />
+
+	<style type="text/css">
+
+		body {
+			margin:0;
+			font-family:arial, helvetica, sans-serif;
+		}
+
+		#topbar {
+			background-color: #7A0000;
+			width:100%;
+			height:40px;
+			color:white;
+		}
+		.fixedwidth {
+			width: 1050px;
+			margin:0 auto;
+		}
+
+		#logodiv {
+			padding-top:6px;
+			float: left;
+			border-right: 1px solid #990000;
+			padding-right: 10px;
+			padding-bottom: 5px;
+		}
+
+		#signindiv {
+			font-weight:bold;
+			padding: 6px 50px 1px 20px;
+			font-size:0.9em;
+			float: left;
+			border-right: 1px solid #990000;
+
+		}
+
+		#signindiv img {
+			position: relative;
+			top: 3px;
+		}
+
+		#topmenudiv {
+			float: left;
+		}
+
+		#topmenudiv ul {
+			margin:0;
+			padding:0;
+		}	
+
+		#topmenudiv li {
+			list-style: none;
+			font-weight: bold;
+			font-size: 0.9em;
+			border-right: 1px solid #990000;
+			height: 100%;
+			padding: 10px 20px 6px 20px;
+			float: left;
+
+		}
+
+		#searchdiv {
+			float:left;
+			padding:5px 0 0 10px;
+		}
+
+		#searchdiv input {
+			height: 25px;
+			border:none;
+			font-size:0.9em;
+			padding-left: 10px;
+			background-image:url("images/magnify.png");
+			background-repeat: no-repeat;
+			background-position: right center;
+		}
+
+		.break {
+			clear: both;
+		}
+
+		#newsbar {
+			background-color: #990000;
+			width:100%;
+			height:90px;
+			color:white;
+		}
+
+		#newsbar p {
+			margin:0;
+			padding:0;
+			padding-top:10px;
+			float: left;
+
+		}
+
+		#newsheader {
+			font-size: 3em;
+		}
+
+		#uk {
+			font-size: 0.7em;
+			padding-left:20px;		
+		}
+
+		#rss {
+			float: right;
+			margin:38px 38px 0 0 ;
+		}
+
+		#rss img {
+			height: 14px;
+			float: right;
+		}
+
+		#topicmenu {
+
+		}
+
+		#topicmenu ul {
+			background-color:#3E0C0D;
+			padding:5px 10px 0 5px;
+			margin-top: 0px;
+			height: 20px;
+			
+		}
+
+		#topicmenu li {
+			list-style: none;
+			font-size: 0.8em;
+			border-right: 1px solid #990000;
+			padding: 0 6px 0 10px;
+			float: left;
+			background-color: none;
+		}
+
+		.selected {
+			background-color: #EDEDED;
+			color:#666666;
+			height: 20px;
+			position: relative;
+			top: -5px;
+			padding-top:5px !important;
+		}
+
+		#content  {
+			width:100%;
+			color:#535353;
+			font-size: 0.7em;
+
+		}	
+
+		.date {
+			font-weight: bold;
+		}
+
+		h1 {
+			color: #686868;
+			font-size: 2.8em;
+			font-weight: bold;
+
+		}
+
+		#headlineimage {
+			float: right;
+			
+		}
+
+		#links {
+			padding-left:8px;
+		}
+
+		#links li {
+			list-style: none;
+			float: left;
+			font-size: 1.2em;
+			
+		}
+
+		.newsitem {
+			position:relative;
+			left:10px;
+			top:-15px;
+			width:700px;
+			float: left;
+		}
+
+		.newsitem p {
+			color:686868;
+			font-size:1.3em;
+			float: left;
+			width:250px;
+			height:100%;
+			padding-right: 15px;
+		}
+
+		#timestampimg {
+			float: left;
+		}
+
+		#ad img {
+			position: relative;
+			padding: 0 50px 0 150px;
+		}
+
+		#cdc img {
+
+		}
+	</style>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+		
+		<div id="topbar"> 
+
+			<div class="fixedwidth">
+
+			<div id="logodiv">
+
+				<img src="images/bbc logo.png" />
+
+			</div>
+
+			<div id="signindiv">
+
+				<img src="images/sign in logo.png" /> 
+
+				</div>
+
+				<div id="topmenudiv">
+
+					<ul>
+
+						<li>News</li>
+						<li>Sports</li>
+						<li>Weather</li>
+						<li>iPlayer</li>
+						<li>TV</li>
+						<li>Radio</li>
+						<li>More...</li>
+
+
+					</ul>
+
+
+				</div>
+
+				<div id="searchdiv">
+
+					<input type="text" placeholder="Search" />
+
+				</div>
+
+			</div>
+
+			<div class="break">
+			</div>
+
+			<div id="newsbar">
+
+				<div class="fixedwidth">	
+
+					<p id="newsheader">NEWS<span id="uk">UK</span></p>
+
+					<div id ="rss"> 
+						RSS <img src="images/rss.png" />
+					</div>
+
+			<div class="break"></div>
+					
+
+			<div id="topicmenu">
+
+				<ul>
+					
+					<li>Home</li>
+					<li>Video</li>
+					<li>World</li>
+					<li class="selected">UK</li>
+					<li>England</li>
+					<li>N.Ireland</li>
+					<li>Scotland</li>
+					<li>Wales</li>
+					<li>Business</li>
+					<li>Politics</li>
+					<li>Health</li>
+					<li>Education</li>
+					<li>Sci/Environment</li>
+					<li>Technology</li>
+					<li style="border-right:none">Entertainment & Art</li>
+ 				
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+		<div class="break"></div>
+
+			<div id="content">
+
+				<div class="fixedwidth">
+
+				<p><span class="date">2 April 2014</span> Last updated at 15:23</p>
+
+					<div class="break"></div>
+
+						<div id="ad"> 
+							<img src ="images/ad.png" id="smsng" />
+
+							</div>
+
+							<div class="break"></div>
+
+
+				<h1>Move Olympics over Zika, scientists say</h1>
+
+			<div class="newsitem">
+ 				<p>More than 100 leading scientists say the Rio Olympics should be moved or postponed due to the Zika outbreak, in a letter to the World Health Organization.</p>
+
+
+				<div class="headlineimage">
+					<img src="images/headlineimage.png" />
+				</div>
+
+
+ 				<div id="timestampimg">
+
+ 					<img src="images/timestamp.png" />
+
+				</div>	
+
+					<div class="break"></div>
+
+				<div id="links">
+					<br>
+						<li>Zika outbreak: What you need to know</li><br>
+						<br>
+						<li>Travel advice</li><br>
+
+				</div>
+
+				<div class="break"></div>
+
+				<br>
+
+				<div id="cdc">
+					
+					<img src="images/cdc.png" />
+
+				</div>
+
+
+			</div>	
+
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
